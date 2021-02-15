@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan(basePackages = {"co.company.MatchFootball.mapper"}) //EmpMapper 인터페이스가 있는 패키지 경로
+@MapperScan(basePackages = {"co.dondon.deal.mapper"}) //EmpMapper 인터페이스가 있는 패키지 경로
 public class MybatisConfiguration {
 
 	@Autowired
