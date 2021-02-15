@@ -19,7 +19,7 @@ import oracle.jdbc.pool.OracleDataSource;
 
 public class DataSourceSample {
 	  
-	final static String DB_URL="jdbc:oracle:thin:@db202012151659_high?TNS_ADMIN=c://Dev//Wallet_DB202102061751";
+	final static String DB_URL="jdbc:oracle:thin:@db202102061751_high?TNS_ADMIN=c://Dev//Wallet_DB202102061751";
 	final static String DB_USER = "admin";
 	final static String DB_PASSWORD = "GJtjdwns12!@";
 	

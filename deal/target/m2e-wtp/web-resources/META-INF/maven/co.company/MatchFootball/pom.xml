@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>MatchFootball</name>
+	<name>deal</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
