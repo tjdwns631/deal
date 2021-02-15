@@ -1,0 +1,34 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+ 	<definition name ="seemoo/*" template="/WEB-INF/views/layout/admin.jsp">
+		<put-attribute name="body" value="/WEB-INF/views/seemoo/{1}.jsp" />
+	</definition>
+	
+	<!-- 타일즈 X -->
+    <definition name="no/*/*" template="/WEB-INF/views/layout/no.jsp">
+    	<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp"></put-attribute>
+    </definition> 
+
+	<definition name="a/*/*" template="/WEB-INF/views/sungjun/mainmenu.jsp">	
+		<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp" />
+	</definition>
+
+	<definition name="hyendong/*" template="/WEB-INF/views/sungjun/mainmenu.jsp">	
+		<put-attribute name="body" value="/WEB-INF/views/hyendong/{1}.jsp" />
+	</definition>
+	
+	<definition name="hyeongjun/*" template="/WEB-INF/views/sungjun/mainmenu.jsp">	
+		<put-attribute name="body" value="/WEB-INF/views/hyeongjun/{1}.jsp" />
+	</definition>
+	
+	<definition name="sungjun/*" template="/WEB-INF/views/sungjun/mainmenu.jsp">	
+		<put-attribute name="body" value="/WEB-INF/views/sungjun/{1}.jsp" />
+	</definition>
+	
+	<definition name="doeun/*" template="/WEB-INF/views/sungjun/mainmenu.jsp">	
+		<put-attribute name="body" value="/WEB-INF/views/doeun/{1}.jsp" />
+	</definition>
+	
+</tiles-definitions>
